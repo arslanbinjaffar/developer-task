@@ -31,8 +31,9 @@ const Hero = () => {
                   </span>
               </p>
           </div>
-          <div className="md:rounded rounded-md md:mx-0 mx-10 bg-transparent shadow-[0_3px_10px_rgb(0,0,0,0.2)] md:shadow-none md:bg-form-pattern max-w-lg lg:h-[553px] h-auto w-full bg-no-repeat bg-contain">
-              <form className="flex items-center  flex-col  bg-white w-[90%] rounded-lg h-[80%] mx-auto mt-5 px-16">
+                <div className="md:rounded rounded-md md:mx-0 mx-10 bg-transparent shadow-[0_3px_10px_rgb(0,0,0,0.2)] md:shadow-none lg:bg-form-pattern max-w-lg lg:h-[553px] h-auto
+           w-full bg-no-repeat bg-contain">
+              <form className="flex items-center justify-center  flex-col  bg-white max-w-[460px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] w-full  mx-auto rounded-lg lg:h-[80%] h-auto  mt-5 lg:px-16 p-5">
                   <p className='font-medium text-center text-base mt-5 mb-8 text-bluishCyan'>Welcome Back</p>
                   <div className='w-full'>
                       
@@ -52,7 +53,7 @@ const Hero = () => {
           </div>
           
             </div>
-            <figure className='m-0'>
+            <figure className='m-0 flex justify-center items-center w-full -mb-0 2xl:-mb-10 z-[9999]'>
                 <Image src={"/Faces.png"} alt="facees" width={1593} height={ 258} />
             </figure>
       </>

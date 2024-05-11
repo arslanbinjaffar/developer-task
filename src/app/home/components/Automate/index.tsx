@@ -6,21 +6,17 @@ const Index = () => {
   return (
     <>
    
-      <div className='md:block hidden transition-all bg-guardian_icons bg-Orangeyyellow  lg:h-[740px] px-8 pt-[70px]'>
+      <div className='md:block hidden transition-all bg-guardian_icons bg-Orangeyyellow  lg:h-[740px] px-8 py-[70px] '>
               <div className='bg-white rounded-lg flex lg:flex-row flex-col lg:py-0 py-10 justify-center items-center h-full w-full gap-16'>
                   <p className=' flex flex-col items-start text-ocean text-2xl font-medium'>
                      
-                      <span className='font-semibold'>
-                      Track your net worth automatically
+                                     <span className='font-semibold'>
+                                     Automate monitoring of your trading 
                     </span>
                   <span>
-                  and spend less time managing your
+                  accounts 24/7. Control your risks and
                   </span>
-                  <span>
-                  personal finances.
-                      No need to update
-                  </span>
-                  <span>          spreadsheets manually anymore.
+                  <span>         manage your portfolio like a PRO.
                   </span>
                 </p>
                   

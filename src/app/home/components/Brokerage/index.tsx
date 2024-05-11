@@ -7,7 +7,7 @@ const Index = () => {
   return (
     <>
    
-      <div className='md:block hidden transition-all bg-track_icons bg-parisgreen  lg:h-[740px] h-auto lg:px-8 px-5 pt-10 lg:my-10 lg:pt-[70px]'>
+      <div className='md:block hidden transition-all bg-track_icons bg-parisgreen  lg:h-[740px] h-auto lg:px-8 px-5 pt-10  lg:pt-[70px]'>
               <div className='bg-white rounded-lg flex justify-center items-center flex-col lg:pt-0 pt-10 lg:flex-row h-full w-full gap-16'>
               <p className=' flex flex-col items-start text-ocean text-3xl font-medium'>
                       <span className='font-semibold'>

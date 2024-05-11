@@ -3,10 +3,12 @@ import React from 'react'
 
 const Index = () => {
   return (
-      <div className='bg-bluishCyan bg-signup-pattern px-8 md:flex hidden lg:flex-row lg:items-stretch items-center flex-col lg:h-[680px] h-auto gap-5
+      <div className=' xl:py-20 bg-bluishCyan bg-signup-pattern px-8 
       md:py-0
       py-5
       '>
+          <section className='2xl:max-w-[1452px] w-full mx-auto md:flex hidden lg:flex-row lg:items-stretch items-center flex-col lg:h-[680px] h-auto gap-5'>
+              
           {/* <div className='border-[20px] border-white rounded-lg max-w-[500px]  w-full'> */}
           <div className='bg-blue-mini bg-contain  bg-no-repeat max-w-[468px]  h-[540px] rounded-lg z-20  w-full hidden md:block
           relative'>
@@ -41,7 +43,9 @@ const Index = () => {
                   <span>connected $150M+ of total
                   assets.</span>
               </p>
-          </div>
+              </div>
+          </section>
+              
     </div>
   )
 }

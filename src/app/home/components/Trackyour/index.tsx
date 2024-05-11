@@ -16,7 +16,8 @@ const Index = () => {
                       top1='0.1rem'
                       top2='4rem'
                       top3='10rem'
-                  /> 
+          /> 
+        
              
                   <p className=' flex flex-col items-start text-ocean text-2xl font-medium'>
                       <span className='font-semibold'>

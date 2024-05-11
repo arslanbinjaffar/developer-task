@@ -6,6 +6,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --blue-color:#00ABE1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,15 +18,17 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--blue-color);
+  
 }
-
+/* .form-border-image{
+  border-image: url('/form_bg.png') 50 stretch;
+} */
+img {
+  max-width: 100%; /* Ensure images don't exceed their container width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevent extra space under images */
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
